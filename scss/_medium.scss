@@ -1,0 +1,134 @@
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+
+main figure {
+    float: right; 
+    width: 48%; 
+    margin-left: 2%;
+    padding-bottom: .5rem;
+}
+    
+div.news {
+    clear: both;
+    column-count: 2;
+    column-rule: 1px solid #ddd;
+}
+
+.spaceout {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.cruise-wrap{
+  max-width: 100%;
+  // width: 650px;
+  padding-top: 1rem;
+  padding-bottom: 10rem;
+  padding-left: 1rem;
+  padding-left: 1rem;
+  // border: 8px solid #999999;
+  // background-color: #e6e6e6;
+}
+.cruise-wrap img{
+  width: 50%;
+  float: left;
+  padding-right: 1rem;
+}
+.cruise-wrap h1{
+  padding-top: 0;
+  font-size: 24px;
+}
+.cruise-wrap p {
+  // text-align: left;
+  padding-top: 1rem;
+  font-size: 15px;
+}
+.agent-wrap img{
+  float: right;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  max-width: 50%;
+}
+.agent-wrap {
+  padding-top: 1rem;
+}
+.agentwrapH1{
+  font-size: 32px;
+}
+.agent-wrap h2{
+  padding-top: 1rem;
+}
+.agent-wrap p{
+  padding-top: 5px;
+}
+  
+.buttoninfo{
+  float: right;
+  margin-top:1rem;
+  margin-right:3rem;
+  padding: 1rem;
+background-color: $menuColor;
+color: white;
+border: none;
+font-size: 1rem;
+width: 20%;
+}
+
+.gallery {
+  flex: 30%;
+  max-width: 30%;
+  padding: 0 4px;
+}
+
+.gallery img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.column1 {
+  background-color: aliceblue;
+  float: left;
+  width: 100%;
+  padding: 15px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.column h2{
+    font-size: 1rem;
+//    font-weight: 100px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+.column1 h2{
+    font-size: 1rem;
+//    font-weight: 100px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
